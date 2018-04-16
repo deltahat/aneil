@@ -1,3 +1,21 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+'''
+CADENAS DE MARKOV
+Sistema matematico que se transforma de un estado al otro,
+con la propiedad de que el estado siguiente depende solo
+de el estado actual, y no de los estados pasados.
+
+Estados: palabras
+Estado actual: Ultimas dos palabras
+
+Se almacenan en una tabla valores [(p1, p2), px, py, pz...]
+donde (p1, p2) son un par de palabras, y px, py, y pz son
+posibles continuaciones leidas en algun tweet.
+Los estados siguientes solo dependen de las dos ultimas palabras.
+'''
+
 import random
 import sys
 
@@ -37,21 +55,6 @@ def generar_palabra():
     words = 0
     log = []
     aleatorio = random.randrange(9)
-
-    # ALGORITMO:
-    # CADENAS DE MARKOV
-    # Sistema matematico que se transforma de un estado al otro,
-    # con la propiedad de que el estado siguiente depende solo
-    # de el estado actual, y no de los estados pasados.
-    ##
-    # Estados: palabras
-    # Estado actual: Ultimas dos palabras
-    ##
-    # Se almacenan en una tabla valores [(p1, p2), px, py, pz...]
-    # donde (p1, p2) son un par de palabras, y px, py, y pz son
-    # posibles continuaciones leidas en algun tweet.
-    # Los estados siguientes solo dependen de las dos ultimas
-    # palabras, lo que puede llevar a resultados interesantes.
 
     # print "%d. " % (sentencecount+1),
     while sentencecount < maxfinoraciones:
