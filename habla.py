@@ -4,15 +4,15 @@ import principal
 import unicodedata
 
 
-def elimina_tildes(cadena):
+def borraTildes(cadena):
     s = ''.join((c for c in unicodedata.normalize(
         'NFD', unicode(cadena)) if unicodedata.category(c) != 'Mn'))
     return s.decode()
 
 
-con_tildes = principal.bot.generar_palabra()
+con_tildes = principal.bot.genPalabra()
 string_acentos = con_tildes.decode('utf-8')
-sin_tildes = elimina_tildes(string_acentos)
+sin_tildes = borraTildes(string_acentos)
 
 eng = pyttsx.init()
 print(sin_tildes)
