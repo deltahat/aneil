@@ -7,12 +7,12 @@ CONSUMER_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ACCESS_KEY = 'xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ACCESS_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+count = 0
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-count = 0
 print(".     .       .  .   . .   .   . .    +  . ")
 print("  .     .  :     .    .. :. .___---------___. ")
 print("       .  .   .    .  :.:. _'.. ....  '.. :-_. . ")
