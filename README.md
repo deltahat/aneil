@@ -1,5 +1,5 @@
 #### Instalation
-1) Download project
+1) Download project:
 ```bash
 $ git clone https://github.com/deltahat/aneil.git
 ```
@@ -7,7 +7,7 @@ $ git clone https://github.com/deltahat/aneil.git
 
 3) Copy the credentials.
 
-4) In config.py complete with your credentials.
+4) In config.py complete with your credentials:
 ```python
 CONSUMER_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
