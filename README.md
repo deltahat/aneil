@@ -1,9 +1,9 @@
 #### Instalation
-1) Download project.
+1) Download project
 ```sh
 $ git clone https://github.com/deltahat/aneil.git
 ```
-2) Create aplication on twitter.
+2) Create aplications on twweter.
 
 3) Copy the credentials.
 
@@ -13,6 +13,15 @@ CONSUMER_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxx'
 CONSUMER_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ACCESS_KEY = 'xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ACCESS_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+```
+#### Dependencies
+```sh
+$ pip install random
+$ pip install sys
+$ pip install tweepy
+$ pip install time
+$ pip install pyttsx
+$ pip install unicodedata
 ```
 #### Run bot
 ```sh
