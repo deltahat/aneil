@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import pyttsx
-import principal
+import config
 import unicodedata
 
 
@@ -10,7 +10,7 @@ def borraTildes(cadena):
     return s.decode()
 
 
-con_tildes = principal.bot.genPalabra()
+con_tildes = config.bot.genPalabra()
 string_acentos = con_tildes.decode('utf-8')
 sin_tildes = borraTildes(string_acentos)
 
