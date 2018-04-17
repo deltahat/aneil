@@ -3,7 +3,7 @@
 ```sh
 $ git clone https://github.com/deltahat/aneil.git
 ```
-2) Create aplications on twweter.
+2) Create aplication on twitter.
 
 3) Copy the credentials.
 
