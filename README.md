@@ -1,5 +1,5 @@
 #### Instalation
-1) Download project
+1) Download project.
 ```sh
 $ git clone https://github.com/deltahat/aneil.git
 ```
