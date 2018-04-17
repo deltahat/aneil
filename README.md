@@ -15,7 +15,7 @@ ACCESS_KEY = 'xxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ACCESS_SECRET = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 ```
 #### Dependencies
-```bash
+```
 $ pip install random
 $ pip install sys
 $ pip install tweepy
