@@ -1,6 +1,6 @@
 #### Instalation
 1) Download project
-```sh
+```bash
 $ git clone https://github.com/deltahat/aneil.git
 ```
 2) Create aplications on twweter.
@@ -24,6 +24,6 @@ $ pip install pyttsx
 $ pip install unicodedata
 ```
 #### Run bot
-```sh
+```bash
 $ python talk.py
 ```
